@@ -16,13 +16,8 @@ export default function CBAMInfo() {
                 <meta property="og:url" content="https://www.carbonvantage.com/cbam-info" />
                 <link rel="canonical" href="https://www.carbonvantage.com/cbam-info" />
             </div>
-            <main className="max-w-4xl mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
-                <header className="flex items-center justify-center mb-6">
-                    <LeafIcon className="h-8 w-8 text-green-500 mr-2" aria-hidden="true" />
-                    <h1 className="text-3xl font-bold text-gray-800">Carbon Vantage</h1>
-                </header>
-
-                <h2 className="text-2xl font-semibold mb-4 text-center">Understanding CBAM and Our Optimization Services</h2>
+            <main className="max-w-4xl mx-auto p-6 bg-white rounded-lg">
+                <h1 className="text-2xl font-semibold mb-8 text-center">Understanding CBAM and Our Optimization Services</h1>
 
                 <section className="mb-8">
                     <h3 className="text-xl font-semibold mb-2">What is CBAM?</h3>

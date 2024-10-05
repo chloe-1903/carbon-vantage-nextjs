@@ -23,12 +23,8 @@ export function ContactForm() {
   }
 
   return (
-    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg shadow-md">
-      <div className="flex items-center justify-center mb-6">
-        <LeafIcon className="h-8 w-8 text-green-500 mr-2" />
-        <h1 className="text-2xl font-bold text-gray-800">Carbon Vantage</h1>
-      </div>
-      <h2 className="text-xl font-semibold mb-4 text-center">Contact Us</h2>
+    <div className="max-w-md mx-auto mt-10 p-6 bg-white rounded-lg">
+      <h1 className="text-xl font-semibold mb-8 text-center">Contact Us</h1>
       <p className="text-sm text-gray-600 mb-6 text-center">
         Learn more about CBAM in Europe and carbon tax
       </p>
@@ -70,7 +66,7 @@ export function ContactForm() {
               className="min-h-[100px]"
             />
           </div>
-          <Button type="submit" className="w-full bg-green-500 hover:bg-green-600">
+          <Button type="submit" className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
             Send Message
           </Button>
         </form>
